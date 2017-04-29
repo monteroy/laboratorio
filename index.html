@@ -1,21 +1,37 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="es" xml:lang="es">
-<!--
-	Arcana by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-	<head>
-		<title>Laboratorio 1 - Ingenier&iacute;a SW avanzada</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-	</head>
-	<body>
-		<div id="page-wrapper">
+
+<head>
+	<title>Accessibility4All</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<!-- script lupa-->
+	<script src="assets/js/jquery.min.js" type="text/javascript"></script><!--motor-->
+	<script src="assets/js/jquery.imageLens.js" type="text/javascript"></script>
+	<script type="text/javascript" language="javascript">
+		$(function () {
+			
+			$("#img_01").imageLens({ lensSize: 200 });
+			$("#img_02").imageLens({ lensSize: 200 });
+			$("#img_03").imageLens({ lensSize: 200 });
+			$("#img_04").imageLens({ lensSize: 200 });
+		});	
+	
+
+	</script>
+	<!-- Scripts -->
+	
+	<script src="assets/js/jquery.dropotron.min.js"></script><!--para desplegar los submenus-->
+	<script src="assets/js/skel.min.js"></script><!--Skel es un marco ligero para la creación de sitios y aplicaciones web sensibles. (Marco principal) Proporciona acceso JS a puntos de interrupción CSS, eventos y otras herramientas.-->
+	<script src="assets/js/util.js"></script><!--contiene una serie de funciones de utilidad para ayudarle a actualizar sus páginas web con datos de javascript (como los que pueden ser devueltos desde el servidor)-->
+	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="assets/js/main.js"></script><!--configurador y desde el que insertaremos todos los scripts correspondientes-->
+	<script type="text/javascript">var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));	</script>	<script type="text/javascript">	try{var pageTracker = _gat._getTracker("UA-2030729-5");pageTracker._initData();pageTracker._trackPageview();}catch(ex){}</script>
+	
+</head>
+</head>
+	<body>	<div id="page-wrapper">
 			<!-- Header -->
 				<div id="header">
 					<!-- Logo -->
@@ -63,26 +79,24 @@
 						</nav>
 
 				</div>
-
 			<!-- Banner -->
 				<section id="banner">
 					<header>
 						<h2><em>Somos una empresas especializada en productos para personas con diversidad funcional</em></h2>
 					</header>
 				</section>
-
-			
-
-			<!-- Posts -->
+<!-- Productos destacados -->
 				<section class="wrapper style1">
 					<div class="container">
 					<h2><em>Productos destacados</em></h2>
 						<div class="row">
 							<section class="6u 12u(narrower)">
 								<div class="box post">
-									<h2><a href="http://www.indexbraille.com/en-us/braille-embossers/basic-d-v4?c=EUR" class="image left"><img src="images/pic01.jpg" alt="Imagen del basic-D V4" /></a></h2>
+									<h2><a href= "http://www.indexbraille.com/en-us/braille-embossers/basic-d-v5?c=EUR" class="image left">
+										<img id="img_01" src="images/pic01.png"   width="384" height="240" alt="Imagen del basic-D V4"/></a>
+									</h2>
 									<div class="inner">
-										<strong>Basic-D V4</strong>
+										<strong>Basic-D V5</strong>
 										<p>Basic-D V4 es una historia de &eacute;xito,
 											como la mejor impresora braille m&aacute;s vendido
 											en el mundo no s&oacute;lo es atractiva, pero f&aacute;cil de usar.
@@ -94,7 +108,7 @@
 							<section class="6u 12u(narrower)">
 							
 								<div class="box post">
-									<h2><a href="http://www.freedomscientific.com/Products/Blindness/Focus40BrailleDisplay" class="image left"><img src="images/pic02.jpg" alt="Imagen del Focus 40 Blue" /></a></h2>
+									<h2><a href= "http://www.freedomscientific.com/Products/Blindness/Focus40BrailleDisplayclass" class="image left" ><img id="img_02" src="images/pic02.png" width="384" height="240" alt="Imagen del Focus 40 Blue" /></a></h2>
 									<div class="inner">
 										<strong>Focus 40 Blue</strong>
 										<p>La l&iacute;nea braille. El enfoque ligero y compacto 40 Azul
@@ -114,18 +128,17 @@
 							<section class="6u 12u(narrower)">
 							
 								<div class="box post">
-									<h2><a href="http://www.perkinsproducts.org/store/en/braille-displays/1313-perkins-products-braille-display-braille-80.html" class="image left"><img src="images/pic03.jpg" alt="Imagen del Perkins Braille 80" /></a></h2>
-									<div class="inner">
-										<strong>Perkins Braille 80</strong>
-										<p>Disfrutar de la comodidad de la lectura de 80 celdas braille
-											a la vez. Ideal para el cargo y funciona tanto con ordenadores Mac y PC.</p>
+									<h2><a href="http://www.indexbraille.com/en-us/accessories/acoustic-hood-everest-en?c=EUR" class="image left"><img id="img_03" src="images/pic03.png" width="384" height="240" alt="Acoustic Hood Everest" /></a></h2>
+									<div class="inner">																												
+										<strong>Acoustic Hood Everest</strong>
+										<p>Proporciona una solución rentable para alojar el ruido natural producido cuando se graba en relieve braille de calidad con un grabador braille.</p>
 									</div>
 								</div>
 							</section>
 							<section class="6u 12u(narrower)">
 							
 								<div class="box post">
-									<h2><a href="https://in.optelec.com/products/easylink-12-touch.html" class="image left"><img src="images/pic04.jpg" alt="Imagen del Easy Link 12 Touch" /></a></h2>
+									<h2><a href="https://in.optelec.com/products/easylink-12-touch.html" class="image left"><img id="img_04" src="images/pic04.png" width="384" height="240" alt="Imagen del Easy Link 12 Touch" /></a></h2>
 									<div class="inner">
 										<strong>Easy Link 12 Touch</strong>
 										<p>El primer asistente inal&aacute;mbrico Braille que combina los
@@ -137,56 +150,11 @@
 						</div>
 					</div>
 				</section>
-<!-- Highlights -->
-				<section class="wrapper style1">
-					<div class="container">
-					
-						<div class="row 200%">
-							<section class="4u 12u(narrower)">
-								<div class="box highlight">
-									<i class="icon major fa-paper-plane"></i>
-									<h2>This Is Important</h2>
-									<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-								</div>
-							</section>
-							<section class="4u 12u(narrower)">
-								<div class="box highlight">
-									<i class="icon major fa-pencil"></i>
-									<h2>Also Important</h2>
-									<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-								</div>
-							</section>
-							<section class="4u 12u(narrower)">
-								<div class="box highlight">
-									<i class="icon major fa-wrench"></i>
-									<h2>Probably Important</h2>
-									<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-								</div>
-							</section>
-						</div>
-					</div>
-				</section>
-
-			<!-- Gigantic Heading -->
-				<section class="wrapper style2">
 				
-					<div class="container">
-						<header class="major">
-							<h2>A gigantic heading you can use for whatever</h2>
-							<p>With a much smaller subtitle hanging out just below it</p>
-						</header>
-					</div>
-				</section>
-			<!-- CTA -->
-				<section id="cta" class="wrapper style3">
-					
-					<div class="container">
-						<header>
-							<h2>¿Est&aacute;s listo para continuar tu b&uacute;squeda?</h2>
-							<a href="https://www.google.es" class="button">Buscar</a>
-						</header>
-					</div>
-				</section>
+				
+
+
+
 
 			<!-- Footer -->
 				<div id="footer">
@@ -260,18 +228,13 @@
 								<li>Copyright &copy; Accessibility4All.</li><li>Design: <a href="http://www.accessibility4all.esy.es">Enlace a accessibility4all</a></li>
 							</ul>
 						</div>
-
 				</div>
-
 		</div>
+				
+				
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script><!--para desplegar los submenus-->
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
-		
-	</body>
-</html> 
+	
+	<script type="text/javascript">var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));	</script>	<script type="text/javascript">	try{var pageTracker = _gat._getTracker("UA-2030729-5");pageTracker._initData();pageTracker._trackPageview();}catch(ex){}</script>
+	
+</body>
+</html>
