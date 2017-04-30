@@ -9,13 +9,12 @@
 	<!-- script lupa-->
 	<script src="assets/js/jquery.min.js" type="text/javascript"></script><!--motor-->
 	<script src="assets/js/jquery.imageLens.js" type="text/javascript"></script>
-	<script type="text/javascript" language="javascript">
+	<script>
 		$(function () {
-			
-			$("#img_01").imageLens({ lensSize: 200 });
+			$("#img_01").imageLens({ borderSize: 8, borderColor: "#06f" });
 			$("#img_02").imageLens({ lensSize: 200 });
 			$("#img_03").imageLens({ lensSize: 200 });
-			$("#img_04").imageLens({ lensSize: 200 });
+			$("#img_04").imageLens({ borderSize: 8, borderColor: "#06f" });
 		});	
 	
 
@@ -25,12 +24,11 @@
 	<script src="assets/js/jquery.dropotron.min.js"></script><!--para desplegar los submenus-->
 	<script src="assets/js/skel.min.js"></script><!--Skel es un marco ligero para la creación de sitios y aplicaciones web sensibles. (Marco principal) Proporciona acceso JS a puntos de interrupción CSS, eventos y otras herramientas.-->
 	<script src="assets/js/util.js"></script><!--contiene una serie de funciones de utilidad para ayudarle a actualizar sus páginas web con datos de javascript (como los que pueden ser devueltos desde el servidor)-->
-	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 	<script src="assets/js/main.js"></script><!--configurador y desde el que insertaremos todos los scripts correspondientes-->
 	<script type="text/javascript">var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));	</script>	<script type="text/javascript">	try{var pageTracker = _gat._getTracker("UA-2030729-5");pageTracker._initData();pageTracker._trackPageview();}catch(ex){}</script>
 	
 </head>
-</head>
+
 	<body>	<div id="page-wrapper">
 			<!-- Header -->
 				<div id="header">
@@ -92,12 +90,12 @@
 						<div class="row">
 							<section class="6u 12u(narrower)">
 								<div class="box post">
-									<h2><a href= "http://www.indexbraille.com/en-us/braille-embossers/basic-d-v5?c=EUR" class="image left">
-										<img id="img_01" src="images/pic01.png"   width="384" height="240" alt="Imagen del basic-D V4"/></a>
+									<h2 class="image left">
+										<img id="img_01" src="images/pic01.png"   width="192" height="120" alt="Imagen del basic-D V4"/>
 									</h2>
 									<div class="inner">
-										<strong>Basic-D V5</strong>
-										<p>Basic-D V4 es una historia de &eacute;xito,
+										<strong><a href= "http://www.indexbraille.com/en-us/braille-embossers/basic-d-v5?c=EUR">Basic-D V5</a></strong>
+										<p >Basic-D V4 es una historia de &eacute;xito,
 											como la mejor impresora braille m&aacute;s vendido
 											en el mundo no s&oacute;lo es atractiva, pero f&aacute;cil de usar.
 											Basic-D utiliza papel plegado en acorde&oacute;n para producir
@@ -106,20 +104,16 @@
 								</div>
 							</section>
 							<section class="6u 12u(narrower)">
-							
 								<div class="box post">
-									<h2><a href= "http://www.freedomscientific.com/Products/Blindness/Focus40BrailleDisplayclass" class="image left" ><img id="img_02" src="images/pic02.png" width="384" height="240" alt="Imagen del Focus 40 Blue" /></a></h2>
+									<h2 class="image left"><img id="img_02" src="images/pic02.png" width="192" height="120" alt="Imagen del Focus 40 Blue"/></h2>
 									<div class="inner">
-										<strong>Focus 40 Blue</strong>
+										<strong><a href= "http://www.freedomscientific.com/Products/Blindness/Focus40BrailleDisplayclass" >Focus 40 Blue</a></strong>
 										<p>La l&iacute;nea braille. El enfoque ligero y compacto 40 Azul
 											combina la &uacute;ltima tecnología con un teclado Braille f&aacute;cil
 											de usar y de diseño de control, adem&aacute;s de USB y conectividad
 											Bluetooth&reg;. Se conecta f&aacute;cilmente a los dispositivos iOS y
 											Android &#8482; tales como tel&eacute;fonos inteligentes, iPad&reg;, tabletas
-											y otros dispositivos m&oacute;viles. Controla tu PC con el teclado
-											de tipo Perkins para la introducci&oacute;n de texto en Braille sin
-											esfuerzo. Combinar el Focus 40 azul con JAWS&reg; para lograr la
-											m&aacute;xima expresi&oacute;n y el acceso a su PC en braille.</p>
+											y otros dispositivos m&oacute;viles.</p>
 									</div>
 								</div>
 							</section>
@@ -128,9 +122,9 @@
 							<section class="6u 12u(narrower)">
 							
 								<div class="box post">
-									<h2><a href="http://www.indexbraille.com/en-us/accessories/acoustic-hood-everest-en?c=EUR" class="image left"><img id="img_03" src="images/pic03.png" width="384" height="240" alt="Acoustic Hood Everest" /></a></h2>
+									<h2 class="image left"><img id="img_03" src="images/pic03.png" width="192" height="120" alt="Acoustic Hood Everest" /></h2>
 									<div class="inner">																												
-										<strong>Acoustic Hood Everest</strong>
+										<strong><a href="http://www.indexbraille.com/en-us/accessories/acoustic-hood-everest-en?c=EUR" >Acoustic Hood Everest</a></strong>
 										<p>Proporciona una solución rentable para alojar el ruido natural producido cuando se graba en relieve braille de calidad con un grabador braille.</p>
 									</div>
 								</div>
@@ -138,9 +132,9 @@
 							<section class="6u 12u(narrower)">
 							
 								<div class="box post">
-									<h2><a href="https://in.optelec.com/products/easylink-12-touch.html" class="image left"><img id="img_04" src="images/pic04.png" width="384" height="240" alt="Imagen del Easy Link 12 Touch" /></a></h2>
+									<h2 class="image left"><img id="img_04" src="images/pic04.png" width="192" height="120" alt="Imagen del Easy Link 12 Touch" /></h2>
 									<div class="inner">
-										<strong>Easy Link 12 Touch</strong>
+										<strong><a href="https://in.optelec.com/products/easylink-12-touch.html" >Easy Link 12 Touch</a></strong>
 										<p>El primer asistente inal&aacute;mbrico Braille que combina los
 											beneficios del acceso a la pantalla t&aacute;ctil, una pantalla Braille
 											y Anotador en un diseño ultra-port&aacute;til y elegante.</p>
@@ -170,6 +164,7 @@
 									<li><a href="#">Informaci&oacute;n accionistas</a></li>
 									<li><a href="#">Sala de prensa</a></li>
 									<li><a href="#">&Uacute;ltimos avances</a></li>
+						
 								</ul>
 							</section>
 							<section class="3u 6u$(narrower) 12u$(mobilep)">
@@ -184,7 +179,7 @@
 							</section>
 							<section class="6u 12u(narrower)">
 								<h2>Contactar</h2>
-								<form>
+								<form  action="mailto:contacto@accessibility4all.esy.es" enctype="text/plain" method="post">
 									<div class="row 50%">
 										<div class="6u 12u(mobilep)">
 											<label for ="name"> Nombre: </label>
@@ -203,8 +198,7 @@
 									<div class="row 50%">
 										<div class="12u">
 											<ul class="actions">
-												<label for ="submit"> Enviar </label>
-												<li><input type="submit" class="button alt" value="Send Message" /></li>
+												<li><input type="submit" class="button alt" value="Contactar" /></li>
 											</ul>
 										</div>
 									</div>
@@ -233,8 +227,6 @@
 				
 				
 
-	
-	<script type="text/javascript">var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));	</script>	<script type="text/javascript">	try{var pageTracker = _gat._getTracker("UA-2030729-5");pageTracker._initData();pageTracker._trackPageview();}catch(ex){}</script>
 	
 </body>
 </html>
